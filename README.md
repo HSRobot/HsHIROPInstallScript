@@ -1,0 +1,2 @@
+# HsHIROPInstallScript
+HsRobot install scirpt
