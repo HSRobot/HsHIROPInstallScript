@@ -27,8 +27,9 @@ exit 0
 
 cd ~
 
-docker cp test:/home/catkin_ws ~
-
+#copy the local directory
+docker cp test:/home/catkin_ws/src  ~/catkin_ws/
+docker cp test:/home/work ~
 if [ $? -ne 0 ] ;then
    echo "docker copy the files is error "
    exit -2
@@ -43,8 +44,6 @@ fi
 
 
 
-echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-source ~/.bashrc
 echo "HsRobot environment is build sucessfully"
 
 
