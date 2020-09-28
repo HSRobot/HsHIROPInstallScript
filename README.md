@@ -13,26 +13,26 @@
         
     步骤3  
 
- 			sudo apt-get update  
+		sudo apt-get update  
             
     步骤4  
 
- 			sudo apt-get install ros-kinetic-desktop-full   
-		   （在安装过程中可能会断线，如果发现断线中止了，可以重新敲指令继续下载）
+		sudo apt-get install ros-kinetic-desktop-full   
+		   （在安装过程中可能会断线，如果发现断线中止了，可以重新敲指令继续下载）  
             
- 			sudo apt-get install ros-kinetic-moveit ros-kinetic-ecto ros-kinetic-opencv-candidate ros-kinetic-serial ros-kinetic-industrial_msgs ros-kinetic-realtime-tools ros-kinetic-industrial-utils ros-kinetic-moveit-visual-tools   
+		sudo apt-get install ros-kinetic-moveit ros-kinetic-ecto ros-kinetic-opencv-candidate ros-kinetic-serial ros-kinetic-industrial_msgs ros-kinetic-realtime-tools ros-kinetic-industrial-utils ros-kinetic-moveit-visual-tools   
 
-sudo apt-get install automake autoconf libtool python3-dev    
+		sudo apt-get install automake autoconf libtool python3-dev    
             
     步骤5 环境激活  
 
- 			echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc    
-             source ~/.bashrc  
+		echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc    
+                source ~/.bashrc  
 
 
 2. 安装docker 环境 安装命令如下:  
 
-			curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun  
+		curl -fsSL https://get.docker.com | bash -s docker --mirror Aliyun  
                 
 3. docker 镜像的导入  
 
