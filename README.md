@@ -36,7 +36,7 @@
                 
 3. docker 镜像的导入  
 
-            docker import *.tar hsrosenv001:v1
+            docker import hsrosenv20201121.tar hsrosenv001:v1
 
 
 4. 启动一键安装的脚本  
